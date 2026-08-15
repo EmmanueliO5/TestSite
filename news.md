@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: News
 ---
 <h1>Latest Posts</h1>
 

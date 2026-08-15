@@ -1,12 +1,10 @@
 - name: Home
   link: /
-- name: About
-  link: /about.html
-- name: Updates
-  link: /updates.html
+- name: News
+  link: /news.html
+- name: Projects
+  link: /projects.html
 - name: Contact
   link: /contact.html
 - name: CV
   link: /cv.html
-- name: Blog
-  link: /Blog.html

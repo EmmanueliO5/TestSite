@@ -1,14 +1,15 @@
 ---
 layout: default
-title: News
+title: Now
 ---
-<h1>Latest Posts</h1>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
+<ul class="ledger">
+{% for post in site.posts %}
+  <li class="ledger-item">
+    <span class="ledger-date">{{ post.date | date: "%Y·%m·%d" }}</span>
+    <div>
+      <h3 class="ledger-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    </div>
+  </li>
+{% endfor %}
 </ul>

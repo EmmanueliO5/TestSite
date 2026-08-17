@@ -2,9 +2,23 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "default"
 collections:
   projects:
     output: true
     future: true
   posts:
     output: true
+github_url: "https://github.com/EmmanueliO5"
+linkedin_url: "https://www.linkedin.com/in/eolusheki"
+instagram_url: "https://instagram.com/emmanuelio5"
